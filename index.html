@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Image Slider</title>
+    <!---font awesome cdn for font icons---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <header>
+        <div class="logo">Safaa Abdellaoui</div>
+        <nav>
+            <a href="#skills">Skills & Competencies</a>
+            <a href="#sea">Sea Service</a>
+            <a href="#work">Work Experience</a>
+            <a href="#education">Education</a>
+            <a href="#certificate">STCW Certificate</a>
+            <a href="#contact">Contact</a>
+            <a href="safaaAbdellaoui.pdf" id="download" download="safaaAbdellaoui.pdf">Download CV</a>
+        </nav>
+        <div class="menu-toggle">&#9776;</div>
+    </header>
+
+
+    <div class="carousel">
+
+        <div class="list">
+            <div class="item" style="background-image: url(images/1.jpeg);">
+                <div class="content">
+                    <div class="social">
+                        <a href="#"><i class="fa fa-phone"  style="color:var(--dark-magenta)"></i></a>
+                        <a href="#"><i class="fab fa-envelope-open"  style="color:var(--dark-pink)"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"  style="color:var(--light-blue)"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(images/4.jpeg);">
+                <div class="content">
+                    <div class="social">
+                        <a href="#"><i class="fa fa-phone"  style="color:var(--dark-magenta)"></i></a>
+                        <a href="#"><i class="fab fa-envelope-open"  style="color:var(--dark-pink)"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"  style="color:var(--light-blue)"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(images/5.jpeg);">
+                <div class="content">
+                    <div class="social">
+                        <a href="#"><i class="fa fa-phone"  style="color:var(--dark-magenta)"></i></a>
+                        <a href="#"><i class="fab fa-envelope-open"  style="color:var(--dark-pink)"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"  style="color:var(--light-blue)"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(images/6.jpeg);">
+                <div class="content">
+                    <div class="social">
+                        <a href="#"><i class="fa fa-phone"  style="color:var(--dark-magenta)"></i></a>
+                        <a href="#"><i class="fab fa-envelope-open"  style="color:var(--dark-pink)"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"  style="color:var(--light-blue)"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(images/prf.jpeg);">
+                <div class="content">
+                    <div class="social">
+                        <a href="#"><i class="fa fa-phone"  style="color:var(--dark-magenta)"></i></a>
+                        <a href="#"><i class="fab fa-envelope-open"  style="color:var(--dark-pink)"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"  style="color:var(--light-blue)"></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--next prev button-->
+        <div class="arrows">
+            <button class="prev"><</button>
+            <button class="next">></button>
+        </div>
+
+
+        <!-- time running -->
+        <div class="timeRunning"></div>
+
+    </div>
+    <!--about me-->
+    <div id="about" class="about">
+        <h1>About Me</h1>
+
+      <div class="about-me" >
+        <div class="about-me-container">
+        <div class="profile">
+            <img src="images/prf.jpeg" class="avatar" alt="">
+
+        </div>
+        <div class="about-content">
+            <p class="about-p">   
+                I am a dedicated and experienced <b style="color:#D4A373 ;">Chief Officer</b> with a strong background in maritime operations and leadership. 
+                Having navigated diverse challenges at sea, I bring a results-driven approach to ship management, safety, and logistics. 
+              </p>
+              <p class="about-p">
+                As a passionate advocate for inclusivity in the maritime industry, I aim to inspire more women to pursue careers in this field. With a deep commitment to teamwork, precision, and adaptability, I excel in fostering a safe and efficient work environment while ensuring compliance with international standards. 
+                My goal is to continue making meaningful contributions to the maritime world while paving the way for future generations.
+              </p>
+              <div class="contact-info">
+                <div class="row">
+                     <div class="icon">
+                        <i class="fa fa-phone"  style="color:var(--dark-magenta)"></i>
+                     </div>
+                     <div class="content">
+                        <span>Phone</span>
+                        <h5>+212 637362506</h5>
+                     </div>
+                </div>
+    
+                <div class="row">
+                    <div class="icon">
+                       <i class="fa fa-envelope-open"  style="color:var(--light-green)"></i>
+                    </div>
+                    <div class="content">
+                       <span>Email</span>
+                       <h5>safaaabdellaoui1998@gmail.com</h5>
+                    </div>
+               </div>
+    
+               <div class="row">
+                <div class="icon">
+                   <i class="fa fa-map-marker"  style="color:var(--light-purple)"></i>
+                </div>
+                <div class="content">
+                   <span>Location</span>
+                   <h5>Deroua, Morocco</h5>
+                </div>
+             </div>
+    
+           </div>
+        </div>
+        </div>
+ 
+
+      </div>
+              <!--==========================SKILLS & COMPETENCIES ===========================================-->
+              <h2 id="skills"><img src="images/skills.svg" alt=""> SKILLS & COMPETENCIES </h2>
+              <div  class="skills">
+               <div class="workbox">
+    
+                   <div class="desc">
+                      <h3>Soft Skills</h3>
+                      <div class="cards">
+                        <div>Adaptability</div>
+                        <div>Safety Training</div>
+                        <div>Time Management</div>
+                        <div>Teamwork</div>
+                        <div>Project Management</div>
+                        <div>Transshipment</div>
+                        <div>Decision Making</div>
+                        <div>Dispute Resolution</div>
+                      </div>
+                   </div>
+               </div>
+    
+               <div class="workbox">
+                   <div class="desc">
+                      <h3>Languages</h3>
+                      <div class="progress-container">
+                        <div class="language">
+                          <div class="circle arabic">
+                            <span>100%</span>
+                          </div>
+                          <div class="label">Arabic (Native)</div>
+                        </div>
+                    
+                        <div class="language">
+                          <div class="circle french">
+                            <span>90%</span>
+                          </div>
+                          <div class="label">French (Fluent)</div>
+                        </div>
+                    
+                        <div class="language">
+                          <div class="circle english">
+                            <span>90%</span>
+                          </div>
+                          <div class="label">English (Fluent)</div>
+                        </div>
+                    
+                        <div class="language">
+                          <div class="circle spanish">
+                            <span>30%</span>
+                          </div>
+                          <div class="label">Spanish (Basic)</div>
+                        </div>
+                      </div>
+
+                   </div>
+               </div>
+               <div class="workbox">
+                <div class="desc">
+                   <h3>Softwares</h3>
+                   <div class="cards">
+                        <div>ISF Watchkeeper</div>
+                        <div>CMA CGM PMS System</div>
+                        <div>TOUCH</div>
+                        <div>CMA CGM V2PS</div>
+                        <div>Word</div>
+                        <div>Excel</div>
+                        <div>PowerPoint</div>
+                  </div>
+
+                </div>
+            </div>
+             </div>
+    <!--SEA SERVICE-->
+    <h2><img src="images/boat.svg" alt=""> SEA SERVICE</h2>
+        <div id="sea" class="table-container">
+    <table>
+        <thead>
+          <tr>
+            <th>SHIP</th>
+            <th>TYPE</th>
+            <th>GROSS TONNAGE</th>
+            <th>ME POWER</th>
+            <th>POSITION</th>
+            <th>DURATION</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CARNIVAL FIRENZE</td>
+            <td>CRUISE SHIP</td>
+            <td>135156</td>
+            <td>150000</td>
+            <td>OOW</td>
+            <td>4 Months</td>
+          </tr>
+          <tr>
+            <td>CMA CGM TANGER</td>
+            <td>CONTAINER</td>
+            <td>9966</td>
+            <td>9730</td>
+            <td>OOW</td>
+            <td>7 Months</td>
+          </tr>
+          <tr>
+            <td>CMA CGM TANGER</td>
+            <td>CONTAINER</td>
+            <td>9966</td>
+            <td>9730</td>
+            <td>OOW</td>
+            <td>4 Months</td>
+          </tr>
+          <tr>
+            <td>CMA CGM AGADIR</td>
+            <td>CONTAINER</td>
+            <td>9966</td>
+            <td>9730</td>
+            <td>OOW</td>
+            <td>4 Months</td>
+          </tr>
+          <tr>
+            <td>CMA CGM TANGER</td>
+            <td>CONTAINER</td>
+            <td>9966</td>
+            <td>9730</td>
+            <td>OOW</td>
+            <td>4 Months</td>
+          </tr>
+          <tr>
+            <td>CMA CGM OUED ZIZ</td>
+            <td>CONTAINER</td>
+            <td>9966</td>
+            <td>9730</td>
+            <td>OOW</td>
+            <td>2 Months</td>
+          </tr>
+          <tr>
+            <td>CMA CGM ALEXANDER VON HUMBOLDT</td>
+            <td>CONTAINER</td>
+            <td>176546</td>
+            <td>80080</td>
+            <td>DECK CADET</td>
+            <td>9 Months</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+              <!--==========================WORK EXPERIENCE ===========================================-->
+              <h2 id="work"><img src="images/api.svg" alt=""> WORK EXPERIENCE</h2>
+              <div  class="work">
+               <div class="workbox">
+    
+                   <div class="desc">
+                      <h3>End of Study Intership</h3>
+                      <h5 style="color: black; margin: 15px 0; font-weight: 600;">APM TERMINAL / TANGER / Apr 2019 - May 2019</h5>
+                      <p>End-of-study intership in a terminal operator APM (Terminals Tangier) responds perfectly to the need
+                        and evolution of the Market, ease of access to the latest generation vessels, need for operational 
+                        efficiency for transshipment, or Free Trade Agreements signed by Morocco with Europe and the USA.
+                      </p>
+                   </div>
+               </div>
+    
+               <div class="workbox">
+                   <div class="desc">
+                      <h3>Consignee Of Ships</h3>
+                      <h5 style="color: black; margin: 15px 0; font-weight: 600;">BCMO / Jun 2018 - Aug 2018</h5>
+    
+                      <p>Intership in a shipping agency, a shipping service for the transport of goods, ship dispatch, international transport charters, combined transport.</p>
+                   </div>
+               </div>
+             </div>
+              <!--==========================EDUCATION ===========================================-->
+              <h2 id="education"><img src="images/education.svg" alt=""> EDUCATION</h2>
+              <div  class="work">
+               <div class="workbox">
+                   <div class="desc">
+                      <h3>CHIEF OFFICER LICENSE (STCWIII/2)</h3>
+                      <h5 style="color: black; margin: 15px 0; font-weight: 600;">Merchant Marine Directorate (MOROCCO) / 2024</h5>
+                   </div>
+               </div>
+    
+               <div class="workbox">
+                <div class="desc">
+                   <h3>OFFICER OF THE WATCH IN CHARGE OF BRIDGE AND OPERATIONS LICENSE (STCWIII/1)</h3>
+                   <h5 style="color: black; margin: 15px 0; font-weight: 600;">Merchant Marine Directorate (MOROCCO) / 2020</h5>
+                </div>
+            </div>
+
+            <div class="workbox">
+                <div class="desc">
+                   <h3>BACHELOR OF MATHEMATICS SCIENCE</h3>
+                   <h5 style="color: black; margin: 15px 0; font-weight: 600;">High School Allal Ben Abdellah / 2016</h5>
+                </div>
+            </div>
+             </div>
+              <!--==========================CERTIFICATES ===========================================-->
+              <h2 id="certificate"><img src="images/certificate.svg" alt=""> STCW CERTIFICATE</h2>
+              <div  class="work cer">
+               <div class="workbox ">
+                   <div class="desc ">
+                      <div>Certificate of Bridge Ressource Management</div>
+                   </div>
+               </div>
+    
+               <div class="workbox ">
+                <div class="desc">
+                   <div>Basic Training For Oil And Chemical Tanker Cargo Operations</div>
+                </div>
+            </div>
+
+            <div class="workbox">
+                <div class="desc">
+                   <div>Certificate of GMDSS</div>
+                </div>
+            </div>
+
+            <div class="workbox">
+                <div class="desc">
+                   <div>Certificate of ECDIS</div>
+                </div>
+            </div>
+
+            <div class="workbox">
+                <div class="desc">
+                   <div>Certificate Of Proficiency In Medical First Aid</div>
+                </div>
+            </div>
+
+            <div class="workbox">
+                <div class="desc">
+                   <div>Certificate In Medical Basic Safety Training</div>
+                </div>
+            </div>
+
+            <div class="workbox">
+                <div class="desc">
+                   <div>Certificate Of Fast Rescue Boats</div>
+                </div>
+            </div>
+
+            <div class="workbox">
+                <div class="desc">
+                   <div>Certificate of ARPA</div>
+                </div>
+            </div>
+
+            <div class="workbox">
+                <div class="desc">
+                   <div>Certificate Of Advanced Fire Fighting</div>
+                </div>
+            </div>
+
+            <div class="workbox">
+                <div class="desc">
+                   <div>Certificate Of Security Duties</div>
+                </div>
+            </div>
+            <div class="workbox">
+                <div class="desc">
+                        <div>Certificate Of Survival Craft And Rescue Boats Other Than Fast Rescue Boats</div>
+                </div>
+            </div>
+            <div class="workbox">
+                <div class="desc">
+                        <div>Certificate Of Training And Qualifications Of Officers, Ratings And Other Personnel On Passenger Ship</div>
+                </div>
+            </div>
+             </div>
+            </div>
+            <!--FOOTER-->
+            <footer id="contact" class="footer">
+                <div class="footer-content">
+                  <div class="footer-section ">
+                    <h2>I'm SAFAA ABDELLAOUI</h2>
+                    <p>
+                        OFFICER OF THE WATCH
+                    </p>
+                  </div>
+                  <div class="footer-section links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                      <li><a href="#skills">Skills & Competencies</a></li>
+                      <li><a href="#sea">Sea Service</a></li>
+                      <li><a href="#work">Work Experience</a></li>
+                      <li><a href="#certificate">STCW Certifciate</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-section contact">
+                    <h2>Contact Us</h2>
+                    <p>Email: safaaabdellaoui1998@gmail.com</p>
+                    <p>Phone: +212 637 362 506</p>
+                    <p>Location: Deroua, Morocco</p>
+                  </div>
+                </div>
+                <div class="footer-bottom">
+                  &copy; 2025 Safaa Abdellaoui
+                </div>
+              </footer>
+              
+    <script>
+           // Select all menu links
+           const menuLinks = document.querySelectorAll("nav a");
+
+menuLinks.forEach(link => {
+    link.addEventListener("click", function() {
+        // Remove active class from all links
+        menuLinks.forEach(l => l.classList.remove("active"));
+        
+        // Add active class to clicked link
+        this.classList.add("active");
+    });
+});
+
+        document.querySelector(".menu-toggle").addEventListener("click", function() {
+    document.querySelector("header").classList.toggle("menu-open");
+});
+
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
