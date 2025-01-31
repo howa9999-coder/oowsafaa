@@ -200,7 +200,7 @@ nav a:hover {
     top: 80%;
     transform: translateY(-70%);
     left: 70%;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
     background-position: 50% 50%;
     background-size: cover;
@@ -479,7 +479,7 @@ h2 {
 
 .avatar{
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .contact-info{
     padding: 5px;
@@ -863,7 +863,7 @@ table{
 
 @media(max-width: 500px){
 
-      .soft-skills, .cer{
+      .soft-skills, .cer, .p-container{
         max-height: 400px;
         padding: 5px 10px;
         overflow-y: scroll;
