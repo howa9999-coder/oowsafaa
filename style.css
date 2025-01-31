@@ -18,6 +18,23 @@
     --light-green:#61e2c2;
     --light-purple:#d9abff;
 }
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+    width: 3px;  /* Thin scrollbar */
+    height: 3px; /* Thin horizontal scrollbar */
+  }
+  
+  /* Style the scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background-color: #f4a261;  /* Orange color */
+    border-radius: 10px;  /* Optional: rounded corners */
+  }
+  
+  /* Style the scrollbar track (area the thumb moves within) */
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Light grey background */
+  }
+  
 a{
     text-decoration: none;
     color: #000;
@@ -251,6 +268,9 @@ nav a:hover {
     opacity: 0;
     animation: animate 1s ease-in-out 0.3s 1 forwards;
 }
+.content h5{
+    font-size: 12px;
+}
 
 .content .name{
     font-size: 100px;
@@ -396,10 +416,48 @@ nav a:hover {
 }
 
 /*****about section ****/
+/* Career Objective Section */
+.career-objective {
+    background: linear-gradient(to right, #003366, #00509E);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.objectives-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.objectives-p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Icon Styling */
+.objectives-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.objectives-icon i {
+    color: #FFD700; /* Gold icon */
+}
 .about{
     padding: 2rem 3rem;
     width: 100%;
 }
+
 .about-me{
     background-color: #6B7280;
     padding: 15px;
@@ -738,13 +796,19 @@ table{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    gap: 40px;
+  }
+
+  .footer-section{
+    text-align: justify;
   }
   @media(max-width: 800px){
     .footer-content{
         flex-direction: column;
+        gap: 10px;
     }
   }
-  
+
   .footer-section {
     flex: 1;
     margin: 0 15px;
@@ -791,3 +855,17 @@ table{
   .footer p {
     color: white;
   }
+
+  footer{
+    background: linear-gradient(to right, #003366, #00509E);
+
+  }
+
+@media(max-width: 500px){
+
+      .soft-skills, .cer{
+        max-height: 400px;
+        padding: 5px 10px;
+        overflow-y: scroll;
+      }
+}
