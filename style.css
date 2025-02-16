@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-:root{
+/* :root{
     --purple:#2F192E;
     --purple-light:#30192d;
     --dark-blue:#012677;
@@ -17,7 +17,7 @@
     --dark-magenta:#e21b5a;
     --light-green:#61e2c2;
     --light-purple:#d9abff;
-}
+} */
 /* Style the scrollbar track */
 ::-webkit-scrollbar {
     width: 3px;  /* Thin scrollbar */
